@@ -4,7 +4,9 @@
 <head>
 	<title>Kirsten Olson Contact Form</title>
 
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 
 </head>
 
@@ -14,7 +16,7 @@
 
 	<h1 class="primaryHeader">Kirsten Olson</h1>
 	
-		<div id=links>
+		<div id="links">
 
 			<strong><a href="contact.html">Contact</a></strong>
 			<strong><a href="portfolio.html">Portfolio</a></strong>
@@ -22,52 +24,56 @@
 
 		</div>
 
-<div id="ConnectBox">
+<main>
 
-	<h3>Connect With Me</h3>
-	
-	<div id=sociallinks>
+	<div class="wrapper">
 
-		<a href="https://github.com/keolson26" target="_blank"> <img class="LogoFormat" src="assets\images\GithubLogo.png"/></a> 
+		<div id="FormContactReq">
 
-		<a href="https://www.linkedin.com/in/kirsten-olson-72977932/" target="_blank"><img class="LogoFormat" src="assets\images\LinkedInLogo.png"/></a> 
+			<h1 class="secondaryHeader">Contact</h1>
 
-		<a href="http://stackoverflow.com/users/7492463/kirsten-olson" target="_blank"> <img class="LogoFormat" src="assets\images\StackOverflowLogo.png"/></a> 
+			<form action="mailto: keolson26@gmail.com" method="post" enctype="text/plain">
+			Name <br>
+			<input type="text" name="name">
+			<br><br>
 
+			Email <br>
+			<input type="email" name="email">
+			<br><br>
+
+			Message<br>
+			<input id="MessageBox" name="message">
+			<br><br>
+		
+			<input type="submit" value="Submit">
+
+			<br><br>
+			</form>
+
+		</div>
+
+		<div class="ConnectBox">
+
+			<h3>Connect With Me</h3>
+
+			<a href="https://github.com/keolson26" target="_blank"> <img class="LogoFormat" src="assets\images\GithubLogo.png"/></a>
+
+			<a href="https://www.linkedin.com/in/kirsten-olson-72977932/" target="_blank"><img class="LogoFormat" src="assets\images\LinkedInLogo.png"/></a>
+
+			<a href="http://stackoverflow.com/users/7492463/kirsten-olson" target="_blank"> <img class="LogoFormat" src="assets\images\StackOverflowLogo.png"/></a>
+
+		</div>
+		
 	</div>
 
-</div>
+</main>
 
-<div id="FormContactReq">
-
-	<h1 class="secondaryHeader">Contact</h1>
-
-	<form action="mailto: keolson26@gmail.com" method="post" enctype="text/plain">
-		Name <br>
-		<input type="text" name="name">
-		<br><br>
-
-		Email <br>
-		<input type="email" name="email">
-		<br><br>
-
-		Message<br>
-		<input id="MessageBox" name="message">
-		<br><br>
-		
-		<input type="submit" value="Submit">
-
-		<br><br>
-
-	</form>
-
-</div>
-
-<div class="footer">
+<footer>
 
 	<h6>©Copyright 2017 Kirsten Olson</h6>
 
-</div>
+</footer>
+
 
 </body>
 </html>

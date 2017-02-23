@@ -7,20 +7,20 @@ body {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #edebdf;
 	margin: 0px;
-	padding: 28px 36px 26px 36px;
+	padding: 38px 56px 38px 56px;
 	position: fixed;
 	top: 0px;
-	left: 160px;
+	left: 60px;
 }
 
 .secondaryHeader {
+	margin: 20px;
 	font-family:'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
-	padding: 30px 36px 30px 36px;
-
 }
 
 h3 {
+	margin: 20px;
 	font-family:'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 }
@@ -41,15 +41,23 @@ a {
 
 p {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color:#777777;
-	text-align: left;
-	padding: 38px 30px;
-	margin: 38px 30px;
-	clear: right;
+	color:#777777;	
+	margin: 20px;
 }
 
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	padding: 20px;
+	margin: 0px;
+	height: 60px;
+	width: 100%;
+	background: #666666;
+	border-top: solid 5px #4aaaa5;
+}
 .sectionHeader {
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	margin: 0px;
@@ -59,6 +67,12 @@ p {
 	border-bottom: solid 3px #dddddd;
 }
 
+.wrapper{
+	width: 100%
+	margin: 0 auto;
+	padding: 140px 60px;
+}
+
 #links {
 	position: fixed;
 	right: 225px;
@@ -66,29 +80,20 @@ p {
 	height: 65px;
 }
 
-#sociallinks {
-	position: fixed;
-	right: 200px;
-	width: 30%;
-	height: 65px;
+.content {
+	float: left;
+	border: solid 1px #dddddd;
+	background-color:#ffffff;
+	width: 800px;
+	height: 480px;
+	clear: both;
 }
 
-#BoxAboutMe {
-	border: solid 1px #dddddd;
-	position:fixed;
-	left: 160px;
-	bottom: 125px;
-	background-color:#ffffff;
-	width: 650px;
-	height: 480px;
-}
 
 #BioImage {
 	float: left;
-	position: absolute;
-	left: 30px;
-	top: 65px;
-	margin: 36px 20px 20px 30px;
+	display: inline;
+	margin: 20px;
 	width:200px;
 	height:200px;
 }
@@ -98,44 +103,21 @@ p {
 	height: 65px;
 }
 
-ul {
-	list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-#ConnectBox {
-  position: fixed;
-  right: 244px;
-  top: 130px;
-  width: 270px;
-  height:200px;
-  border: solid 1px #dddddd;
-  padding: 32px 40px 32px 40px;
-  text-align: center;
-  background: #ffffff;
-}
-
-footer {
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	margin: 0px;
-	height: 60px;
-	width: 100%;
-	background: #666666;
-	border-top: solid 5px #4aaaa5;
+.ConnectBox {
+	float: right;
+  	border: solid 1px #dddddd;
+  	text-align: center;
+  	background: #ffffff;
 }
 
 #FormContactReq {
 	border: solid 1px #dddddd;
-	position:fixed;
-	left: 160px;
-	top: 130px;
+	float: left;
+	width: 750px;
+	height: 520px;
 	background-color:#ffffff;
-	width: 650px;
-	height: 608px;
+	width: 850px;
+	height: 480px;
 }
 
 form {
@@ -178,39 +160,98 @@ input[type=submit] {
 	color: #edebdf;
 	width: 100px
 	height: 36px;
-	padding: 0px 20px 0px 20px;
+	padding: 10px;
 	box-sizing: border-box;
 }
 
-#PortfolioBox {
-	border: solid 1px #dddddd;
-	position:fixed;
-	left: 160px;
-	top: 130px;
-	background-color:#ffffff;
-	width: 650px;
-	height: 608px;
-	float:left;
+#container1{
+	position: relative;
 }
 
-.containerPortfolio {
-    position: relative;
+#container2{
+	position: relative;
 }
+
+#container3{
+	position: relative;
+}
+
+#container4{
+	position: relative;
+}
+
+#container5{
+	position: relative;
+}
+
+
 
 .portfolioImg {
 	float: left;
-	width: 175px;
-	height: 150px;
-	padding: 20px;
+	width: 225px;
+	height: 170px;
+	margin: 20px;
+	display: inline;
 }
 
-.caption {
+
+#caption1 {
 	position: absolute;
-	left: 0;
-	width: 175px;
-	height: 30px;
 	text-align:center;
+	left: 20px;
+	top:  125px;;
+	width:225px;
+	height: 25px;
 	background-color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #edebdf;
 }
+
+#caption2 {
+	position: absolute;
+	text-align:center;
+	left: 285px;
+	top:  125px;
+	width:225px;
+	height: 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+}
+
+#caption3 {
+	position: absolute;
+	text-align:center;
+	left: 550px;
+	top:  125px;
+	width:225px;
+	height: 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+}
+
+#caption4 {
+	position: absolute;
+	text-align:center;
+	left: 20px;
+	top:  345px;
+	width:225px;
+	height: 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+}
+
+#caption5 {
+	position: absolute;
+	text-align:center;
+	left: 285px;
+	top:  345px;
+	width:225px;
+	height: 25px;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #edebdf;
+}
+
